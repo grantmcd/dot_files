@@ -7,6 +7,9 @@ POWERLEVEL9K_MODE='nerdfont-complete'
 
 ZSH_THEME="powerlevel9k/powerlevel9k"
 
+# Wrap gems with bundler
+BUNDLED_COMMANDS=(rubocop)
+
 # oh-my-zsh plugins
 plugins=(
   git
@@ -18,6 +21,7 @@ plugins=(
   yarn
   nvm-auto
   notify
+  bundler
 )
 
 if type brew &>/dev/null; then
