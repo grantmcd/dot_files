@@ -61,5 +61,5 @@ export PATH="/usr/local/opt/imagemagick@6/bin:$PATH"
 source /usr/local/share/zsh-history-substring-search/zsh-history-substring-search.zsh
 nvm_auto_switch
 
-zstyle ':notify:*' error-title "Command failed"
-zstyle ':notify:*' success-title "Command finished"
+zstyle ':notify:*' error-title "Command failed (in #{time_elapsed} seconds)"
+zstyle ':notify:*' success-title "Command finished (in #{time_elapsed} seconds)"
