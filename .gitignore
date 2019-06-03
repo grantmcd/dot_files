@@ -1,0 +1,10 @@
+# Mac
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Node
+npm-debug.log
+
+#IDE Files
+.idea/
