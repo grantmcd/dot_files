@@ -52,14 +52,17 @@ POWERLEVEL9K_PROMPT_ON_NEWLINE=true
 POWERLEVEL9K_BATTERY_VERBOSE=false
 POWERLEVEL9K_BATTERY_HIDE_ABOVE_THRESHOLD=40
 
-source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
-
-PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
-PATH=$PATH:/usr/local/mysql/bin
-
-export PATH="/usr/local/opt/imagemagick@6/bin:$PATH"
-source /usr/local/share/zsh-history-substring-search/zsh-history-substring-search.zsh
-nvm_auto_switch
-
+# Notify Plugin config
 zstyle ':notify:*' error-title "Command failed (in #{time_elapsed} seconds)"
 zstyle ':notify:*' success-title "Command finished (in #{time_elapsed} seconds)"
+
+source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+
+# Path
+PATH=$PATH:$HOME/.rvm/bin
+PATH=$PATH:/usr/local/mysql/bin
+PATH=$PATH:/usr/local/opt/imagemagick@6/bin
+
+source /usr/local/share/zsh-history-substring-search/zsh-history-substring-search.zsh
+
+nvm_auto_switch
