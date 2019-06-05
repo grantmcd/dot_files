@@ -8,7 +8,7 @@ POWERLEVEL9K_MODE='nerdfont-complete'
 ZSH_THEME="powerlevel9k/powerlevel9k"
 
 # Wrap gems with bundler
-BUNDLED_COMMANDS=(rubocop)
+BUNDLED_COMMANDS=(rubocop rspec)
 
 # oh-my-zsh plugins
 plugins=(
