@@ -1,4 +1,3 @@
-# source /Users/gmcdonald/.bash_profile
 source ~/.zsh-nvm/zsh-nvm.plugin.zsh
 
 export ZSH="/Users/gmcdonald/.oh-my-zsh"
@@ -31,12 +30,8 @@ fi
 source $ZSH/oh-my-zsh.sh
 
 # aliases
-alias gopen="git open"
-alias lsh="ls -a"
-alias cdgit="cd /Users/gmcdonald/Documents/git"
-alias rubodif="git diff --name-only | xargs rubocop"
-alias lc="colorls"
-alias ls="lc"
+alias cdgit="cd ~/Documents/git"
+alias ls="colorls"
 
 # PowerLevel9k prompts
 POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(status os_icon battery dir dir_writable node_version rvm vcs)
