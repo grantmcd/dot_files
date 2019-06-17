@@ -24,12 +24,6 @@ curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.34.0/install.sh | bash
 ### ZSH
 Symlink or copy the .zshrc file into your home directory
 
-### Global Git Ignore
-Symlink or copy the .gitignore into your home directory then run
-
-```
-git config --global core.excludesfile ~/.gitignore
-```
 ### Gems
 
 To install gems system wide run:
