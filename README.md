@@ -24,6 +24,14 @@ curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.34.0/install.sh | bash
 ### ZSH
 Symlink or copy the .zshrc file into your home directory
 
+#### Oh-my-zsh
+
+##### Plugins
+
+* [notify](https://github.com/marzocchi/zsh-notify)
+* [nvm-auto](https://github.com/dijitalmunky/nvm-auto)
+* [zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions)
+  
 ### Gems
 
 To install gems system wide run:
