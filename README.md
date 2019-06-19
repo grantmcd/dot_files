@@ -32,6 +32,15 @@ To install gems system wide run:
 bundle install --system
 ```
 
+### Homebrew
+
+To install the homebrew packages run: 
+
+```
+brew bundle
+```
+
+
 ### Command Line Utilities
 * David - node package
   * gets outdated npm packages
