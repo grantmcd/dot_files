@@ -33,6 +33,7 @@ source $ZSH/oh-my-zsh.sh
 alias cdgit="cd ~/Documents/git"
 alias ls="colorls"
 alias cat="bat"
+alias find="fd"
 
 # PowerLevel9k prompts
 POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(status os_icon battery dir dir_writable node_version rvm vcs)

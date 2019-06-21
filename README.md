@@ -50,11 +50,6 @@ brew bundle
 
 
 ### Command Line Utilities
-* David - node package
-  * gets outdated npm packages
-  * `david`
-  * `david update`
-  * `david update package-name`
 * HTTPie
   * http client
   * `http food.com/resoure/1`
