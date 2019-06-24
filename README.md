@@ -48,7 +48,6 @@ To install the homebrew packages run:
 brew bundle
 ```
 
-
 ### Command Line Utilities
 * HTTPie
   * http client
@@ -70,3 +69,7 @@ brew bundle
   * aliased j to autojump
   * `j dot-even`
 
+### Font
+
+Install nerd font of choice from here:
+https://github.com/ryanoasis/nerd-fonts
