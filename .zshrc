@@ -63,3 +63,7 @@ PATH=$PATH:/usr/local/opt/imagemagick@6/bin
 source /usr/local/share/zsh-history-substring-search/zsh-history-substring-search.zsh
 
 nvm_auto_switch
+
+# bind substring search keys
+bindkey "$terminfo[kcuu1]" history-substring-search-up
+bindkey "$terminfo[kcud1]" history-substring-search-down
