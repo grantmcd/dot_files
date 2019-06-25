@@ -11,6 +11,7 @@ BUNDLED_COMMANDS=(rubocop rspec)
 
 # oh-my-zsh plugins
 plugins=(
+  you-should-use
   git
   zsh-autosuggestions
   rvm

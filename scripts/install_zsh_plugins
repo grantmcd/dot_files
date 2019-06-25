@@ -1,0 +1,13 @@
+# zsh-autosuggestions
+git clone https://github.com/zsh-users/zsh-autosuggestions $ZSH_CUSTOM:/plugins/zsh-autosuggestions
+
+# zsh-you-should-use
+# Reminds you to use the aliases you've set
+git clone https://github.com/MichaelAquilina/zsh-you-should-use.git $ZSH_CUSTOM/plugins/you-should-use
+
+# zsh-notify
+git clone git@github.com:marzocchi/zsh-notify.git $ZSH_CUSTOM/plugins/notify
+
+# zsh-nvm-auto
+# auto calls nvm-use when switching directories
+git clone https://github.com/dijitalmunky/nvm-auto.git $ZSH_CUSTOM/plugins/notify
