@@ -25,3 +25,5 @@
 	old = red bold
 	new = green bold
 	whitespace = red reverse
+[alias]
+	all = "!f() { \\ls | xargs -I{} git -C {} $1; }; f"
