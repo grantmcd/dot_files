@@ -4,7 +4,8 @@ export ZSH="/Users/gmcdonald/.oh-my-zsh"
 
 POWERLEVEL9K_MODE='nerdfont-complete'
 
-ZSH_THEME="powerlevel9k/powerlevel9k"
+# ZSH_THEME="powerlevel9k/powerlevel9k"
+ZSH_THEME="powerlevel10k/powerlevel10k"
 
 # Wrap gems with bundler
 BUNDLED_COMMANDS=(rubocop rspec)
