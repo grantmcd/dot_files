@@ -23,7 +23,13 @@ plugins=(
   nvm-auto
   notify
   bundler
+  zsh-syntax-highlighting
+  history-substring-search
+  zsh-completions
 )
+
+# needed for zsh-completions
+autoload -U compinit && compinit
 
 if type brew &>/dev/null; then
   FPATH=$(brew --prefix)/share/zsh/site-functions:$FPATH
@@ -55,15 +61,11 @@ POWERLEVEL9K_BATTERY_HIDE_ABOVE_THRESHOLD=40
 zstyle ':notify:*' error-title "Command failed (in #{time_elapsed} seconds)"
 zstyle ':notify:*' success-title "Command finished (in #{time_elapsed} seconds)"
 
-source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
-
 # Path
 PATH=$PATH:$HOME/.rvm/bin
 PATH=$PATH:/usr/local/mysql/bin
 PATH=$PATH:/usr/local/opt/imagemagick@6/bin
 PATH=$PATH:/usr/local/opt/libxml2/bin
-
-source /usr/local/share/zsh-history-substring-search/zsh-history-substring-search.zsh
 
 nvm_auto_switch
 
@@ -71,5 +73,6 @@ nvm_auto_switch
 bindkey "$terminfo[kcuu1]" history-substring-search-up
 bindkey "$terminfo[kcud1]" history-substring-search-down
 
+# iterm2
 source ~/.iterm2_shell_integration.zsh
 

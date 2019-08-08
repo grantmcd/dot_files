@@ -1,8 +1,5 @@
 # ZSH
 brew "zsh"
-brew "zsh-completions"
-brew "zsh-history-substring-search"
-brew "zsh-syntax-highlighting"
 
 # Command line utilities
 brew "autojump"
