@@ -33,7 +33,7 @@ source $ZSH/oh-my-zsh.sh
 
 # aliases
 alias cdgit="cd ~/Documents/git"
-alias ls="colorls"
+alias lc="colorls"
 alias cat="bat"
 alias find="fd"
 
@@ -61,6 +61,7 @@ source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 PATH=$PATH:$HOME/.rvm/bin
 PATH=$PATH:/usr/local/mysql/bin
 PATH=$PATH:/usr/local/opt/imagemagick@6/bin
+PATH=$PATH:/usr/local/opt/libxml2/bin
 
 source /usr/local/share/zsh-history-substring-search/zsh-history-substring-search.zsh
 
@@ -69,3 +70,6 @@ nvm_auto_switch
 # bind substring search keys
 bindkey "$terminfo[kcuu1]" history-substring-search-up
 bindkey "$terminfo[kcud1]" history-substring-search-down
+
+source ~/.iterm2_shell_integration.zsh
+
